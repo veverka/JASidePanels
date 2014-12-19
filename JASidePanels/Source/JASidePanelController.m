@@ -323,7 +323,6 @@ static char ja_kvoContext;
         leftFrame.size.width *= self.leftGapPercentage;
         rightFrame.size.width *= self.rightGapPercentage;
     }
-    
     self.leftPanelContainer.frame = leftFrame;
     self.rightPanelContainer.frame = rightFrame;
     [self styleContainer:self.leftPanelContainer animate:animate duration:duration];	
